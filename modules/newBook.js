@@ -11,7 +11,6 @@ export class Book {
 
 export class StoreBook {
   constructor() {
-    // Array of objects for the book items
     this.bookData = [];
   }
 
@@ -33,7 +32,6 @@ export class StoreBook {
 }
 
 const saveBook = new StoreBook();
-// Get input value
 function getFormInput() {
   const title = document.querySelector('#title');
   const author = document.querySelector('#author');
@@ -63,7 +61,6 @@ function DisplayBooks(index) {
 
 const title = document.querySelector('#title');
 const author = document.querySelector('#author');
-// Add Button
 const addNewBook = document.getElementById('add-btn');
 
 // Form Verification
