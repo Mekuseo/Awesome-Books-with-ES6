@@ -96,7 +96,7 @@ body {
 .navigation .active {
   border: 2px solid rgb(134, 134, 247);
   color: white;
-  background-color: #rgb(134, 134, 247);
+  background-color: rgb(134, 134, 247);
 }
 
 footer {
@@ -149,7 +149,7 @@ footer {
 }
 
 .table tbody:nth-child(odd) {
-  background-color: #rgb(134, 134, 247);
+  background-color: rgb(134, 134, 247);
 }
 
 .table button a:hover,
